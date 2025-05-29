@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9" pages="5">
   <diagram name="Page-1" id="cdnv1xzmEgkro853JLI1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,6 +123,103 @@
             <mxGeometry x="10" y="1750" width="930" height="660" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IrME6-J5HauZd7JU0Lxg" name="Page-4">
+    <mxGraphModel dx="1186" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZW59QTdPXG66dreffspd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZW59QTdPXG66dreffspd-1" target="ZW59QTdPXG66dreffspd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-1" value="Select * from &lt;b&gt;Table / insert statement (syntax, table existance, constraint validation rules ). DDL&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZW59QTdPXG66dreffspd-2" target="ZW59QTdPXG66dreffspd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-2" value="1st it will check the table exists or not ." style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="210" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZW59QTdPXG66dreffspd-4" target="ZW59QTdPXG66dreffspd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-4" value="it will refer the internal location i.e. data file for the specific table ." style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="350" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZW59QTdPXG66dreffspd-6" target="ZW59QTdPXG66dreffspd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-6" value="it will load it into buffer memory&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZW59QTdPXG66dreffspd-8" target="ZW59QTdPXG66dreffspd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-8" value="as a result&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="355" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW59QTdPXG66dreffspd-10" value="DB UI, Application" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="355" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4lrKT_M2h73BeuvCTpRY" name="Page-5">
+    <mxGraphModel dx="1186" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Vj6zt_VXUzC_RhR7jZy-1" target="9Vj6zt_VXUzC_RhR7jZy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-1" value="Normalization is the process of organizing the data to reduce the redundancy and to improve the data integrity." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Vj6zt_VXUzC_RhR7jZy-2" target="9Vj6zt_VXUzC_RhR7jZy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-2" value="big table we will divide them into multiple small tables and we will be defining the relation between the tables." style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="220" width="325" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-4" value="to reduce the duplicate data and ensures data dependencies properly." style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="525" width="305" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-6" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Normal Form&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;1NF&lt;/strong&gt; (First Normal Form)&lt;/td&gt;&lt;td&gt;Eliminate repeating groups; ensure atomicity&lt;/td&gt;&lt;td&gt;Each cell contains a single value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;2NF&lt;/strong&gt; (Second Normal Form)&lt;/td&gt;&lt;td&gt;Eliminate partial dependency&lt;/td&gt;&lt;td&gt;Meet 1NF + all non-key attributes depend on the entire primary key&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;3NF&lt;/strong&gt; (Third Normal Form)&lt;/td&gt;&lt;td&gt;Eliminate transitive dependency&lt;/td&gt;&lt;td&gt;Meet 2NF + no transitive dependency&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;BCNF&lt;/strong&gt; (Boyce-Codd NF)&lt;/td&gt;&lt;td&gt;Handle edge cases of 3NF&lt;/td&gt;&lt;td&gt;Every determinant is a candidate key&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;4NF&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Eliminate multi-valued dependencies&lt;/td&gt;&lt;td&gt;Meet BCNF + no multivalued dependency&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;5NF&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Eliminate join dependency&lt;/td&gt;&lt;td&gt;Every join dependency is implied by candidate keys&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="90" y="720" width="720" height="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Vj6zt_VXUzC_RhR7jZy-7" target="9Vj6zt_VXUzC_RhR7jZy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-7" value="Flat flie :&amp;nbsp; entire application reqd data would be stored in the same file , unorganized data,&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="305" y="2210" width="415" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Vj6zt_VXUzC_RhR7jZy-8" target="9Vj6zt_VXUzC_RhR7jZy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-8" value="raw files." style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Vj6zt_VXUzC_RhR7jZy-10" target="9Vj6zt_VXUzC_RhR7jZy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-10" value="1 NF : ensure atomicity , eliminating repeating groups / data" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="373.75" y="2480" width="277.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Vj6zt_VXUzC_RhR7jZy-12" target="9Vj6zt_VXUzC_RhR7jZy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-12" value="2NF : eliminate the partial dependencies&amp;nbsp; ===&amp;gt; all non key attributes depends on the entire primary key&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="386.88" y="2640" width="251.25" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-14" value="3NF : eliminate the transitive dependencies&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="452.505" y="2945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Vj6zt_VXUzC_RhR7jZy-16" value="a ==&amp;gt; b , B==&amp;gt; C , A ===&amp;gt; C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="3060" width="180" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
