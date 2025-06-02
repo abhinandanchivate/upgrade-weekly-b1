@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9" pages="7">
   <diagram name="Page-1" id="cdnv1xzmEgkro853JLI1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -219,6 +219,67 @@
         </mxCell>
         <mxCell id="9Vj6zt_VXUzC_RhR7jZy-16" value="a ==&amp;gt; b , B==&amp;gt; C , A ===&amp;gt; C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="170" y="3060" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jYWSqVf8_efh15l3x806" name="Page-6">
+    <mxGraphModel dx="1186" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-1" value="&lt;div&gt;curl -X GET \&lt;/div&gt;&lt;div&gt;&amp;nbsp; -H &quot;Authorization: Bearer $(gcloud auth print-access-token)&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;https://firestore.googleapis.com/v1/projects/PROJECT_ID/databases&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="650" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-2" value="rest api : web service : do a cross platform communication." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-3" value="Java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-4" value="dotnet&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="600" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-5" value="python (fastapi)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="790" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-6" value="web sevice : rest api&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-7" value="google cloud services&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2R9NSKebOk6mcVcA3b7p-10" target="2R9NSKebOk6mcVcA3b7p-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-10" value="browser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2R9NSKebOk6mcVcA3b7p-11" target="2R9NSKebOk6mcVcA3b7p-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-11" value="access GCP console" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2R9NSKebOk6mcVcA3b7p-13" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZuYlASZkyM67lvAlTsQ5" name="Page-7">
+    <mxGraphModel dx="1186" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="APWsOCSHR4zUkfzB6I6Q-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="APWsOCSHR4zUkfzB6I6Q-1" target="APWsOCSHR4zUkfzB6I6Q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="APWsOCSHR4zUkfzB6I6Q-1" value="PaaS : GAE(google App Engine) : it s provided by GCP that let&#39;s u build and deploy the application without having to manage the underlying infra(server(VM) , networking , OS)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="APWsOCSHR4zUkfzB6I6Q-2" value="&lt;table&gt;&lt;br/&gt;&lt;thead&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;th&gt;Feature&lt;/th&gt;&lt;br/&gt;&lt;th&gt;Description&lt;/th&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;/thead&gt;&lt;br/&gt;&lt;tbody&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Fully Managed&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Google handles server provisioning, scaling, security, and patching.&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Auto-scaling&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Automatically scales your app based on traffic — from zero to millions of users.&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Supports Multiple Languages&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Python, Node.js, Java, Go, PHP, Ruby, .NET, and more.&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Standard &amp;amp; Flexible Environments&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Standard uses pre-configured runtimes; Flexible lets you define your own Docker-based environment.&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Integrated with GCP&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Easily connects to Firestore, Cloud SQL, Cloud Storage, Pub/Sub, etc.&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Built-in Security &amp;amp; Load Balancing&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;HTTPS support, Identity-Aware Proxy, and automatic HTTPS provisioning.&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;/tbody&gt;&lt;/table&gt;" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="440" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
